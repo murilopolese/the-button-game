@@ -19,10 +19,14 @@ require.config({
 });
 
 require(['jquery', 'game'], function($, Game) {
+    Game.loadGame(function() {
+        
+    })
     $('.container').on('click', 'button', function() {
         Game.cicle();
     });
     $('.container').on('click', '.share', function() {
+        Game.loginAndSave();
         Game.shareScore();
     });
 });
