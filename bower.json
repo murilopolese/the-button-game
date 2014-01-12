@@ -1,0 +1,15 @@
+{
+  "name": "the-button-game",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "jquery": "~1.9.1",
+    "requirejs": "*",
+    "underscore": "*",
+    "backbone": "*",
+    "parse": "http://www.parsecdn.com/js/parse-1.2.12.js",
+    "facebook": "http://connect.facebook.net/en_US/all.js"
+  },
+  "devDependencies": {}
+}
+
